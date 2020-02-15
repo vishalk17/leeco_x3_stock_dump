@@ -833,6 +833,11 @@
 
 #Add for ota force update
 /dev/block/mmcblk0p10 u:object_r:frp_block_device:s0
+#line 1 "vendor/letv/sepolicy/common/file_contexts"
+#transfer backuprestore add
+/system/bin/tr_app_data_service                 u:object_r:transfer_exec:s0
+
+/dev/socket/transfer                       u:object_r:transfer_socket:s0
 #line 1 "device/mediatek/mt6795/sepolicy/file_contexts"
 #########################################
 # Platform dependent label definitions
@@ -862,14 +867,15 @@
 /dev/block/platform/mtk-msdc\.0/[0-9]+\.MSDC0/by-name/persist           u:object_r:persist_block_device:s0
 /dev/block/platform/mtk-msdc\.0/[0-9]+\.MSDC0/by-name/system            u:object_r:system_block_device:s0
 #line 1 "device/letv/x500/sepolicy/file_contexts"
+#For free flow
+/dev/socket/letvbackup(/.*)? u:object_r:letvbackup_socket:s0
+/system/bin/tinyproxy u:object_r:tinyproxy_exec:s0
 /data/tinyproxy(/.*)? u:object_r:tinyproxy_data_file:s0
 
 # lock_wallpaper file for other users
 /data/system/users/[0-9]+/lock_wallpaper        u:object_r:wallpaper_file:s0
 
-#/dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/security for phonecontrol securitydisk 4
-/dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/security      u:object_r:secblock_device:s0
-/dev/block/mmcblk0p13    u:object_r:secblock_device:s0
+/dev/block/mmcblk0p13    u:object_r:frp_block_device:s0
 
 #add by luxi: add for privacy data
 /dev/socket/sdcard u:object_r:vold_socket:s0

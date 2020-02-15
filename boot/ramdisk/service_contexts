@@ -178,7 +178,11 @@ wfo                 u:object_r:radio_service:s0
 
 android.hardware.fingerprint.IGoodixFingerprintDaemon u:object_r:goodixfingerprintd_service:s0
 com.goodix.FingerprintService u:object_r:goodix_fingerprint_service:s0
+#line 1 "vendor/letv/sepolicy/common/service_contexts"
+
+accesscontrol                             u:object_r:accesscontrol_service:s0
+
 #line 1 "device/letv/x500/sepolicy/service_contexts"
 leuicolormode                 u:object_r:colormode_service:s0
 leuiphonebind                             u:object_r:leui_phonebind_service:s0
-accesscontrol                             u:object_r:accesscontrol_service:s0
+leclipboard                                    u:object_r:leclipboard_service:s0

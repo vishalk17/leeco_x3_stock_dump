@@ -36,3 +36,58 @@ on boot
 # Allow only the shell group to read and truncate the kernel trace.
     chown root shell /sys/kernel/debug/tracing/trace
     chmod 0664 /sys/kernel/debug/tracing/trace
+
+#//[+LEUI][LEUI-13067]xulei
+on property:native.coredump=1
+    setrlimit 4 -1 -1
+
+on property:rlimit.coredump.path=1
+    mkdir /data/coredump 0777 system system
+    write  /proc/sys/kernel/core_pattern /data/coredump/core.%e.%p
+    write  /proc/sys/fs/suid_dumpable 1
+#end
+
+#[+LEUI] [TASK][RUBY-20880] [xulei]
+on property:debug.sys_trace.atraceable=1
+    mkdir /data/atrace 0777 system system
+    chmod 0777 /data/atrace/ -R
+    start letv_atrace
+    setprop debug.sys_trace.atraceable 0
+
+service letv_atrace /system/bin/letv_atrace -z gfx input view wm am sched freq idle -b 10480 -t 5
+    class main
+    user root
+    disabled
+    oneshot
+#end
+
+#[+LEUI] [TASK][RUBY-20880][zhangp]
+on property:debug.sys_trace.autoenable=1
+    mkdir /data/atrace 0777 system system
+    chmod 0777 /data/atrace/ -R
+    start letv_atrace_start
+
+on property:debug.sys_trace.autoenable=0
+    start letv_atrace_stop
+
+on property:debug.sys.atrace_option=dump
+    start letv_atrace_dump
+    setprop debug.sys.atrace_option idle
+
+service letv_atrace_start /system/bin/letv_atrace -z gfx input view wm am sched freq idle -b 4096 -t 15 -c --async_start
+    user root
+    disabled
+    oneshot
+
+service letv_atrace_stop /system/bin/letv_atrace -z gfx input view wm am sched freq idle -b 4096 -t 15 -c --async_stop
+    user root
+    disabled
+    oneshot
+
+service letv_atrace_dump /system/bin/letv_atrace -z gfx input view wm am sched freq idle -b 4096 -t 15 -c --async_dump
+    user root
+    disabled
+    oneshot
+
+#[+LEUI]
+

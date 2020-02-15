@@ -80,4 +80,28 @@
 <leui_feature_item name="com.zhuoyi.market"/>
 <leui_feature_item name="com.brixd.niceapp"/>
 <leui_feature_item name="com.pp.assistant"/>
+
+<leui_feature_item name="com.tencent.mtt"/>
+<leui_feature_item name="com.UCMobile"/>
+<leui_feature_item name="com.oupeng.browser"/>
+<leui_feature_item name="com.android.chrome"/>
+<leui_feature_item name="com.baidu.browser.apps"/>
+<leui_feature_item name="com.ijinshan.browser_fast"/>
+<leui_feature_item name="com.ksmobile.cb"/>
+<leui_feature_item name="com.quark.browser"/>
+<leui_feature_item name="mark.via"/>
+<leui_feature_item name="com.qihoo.browser"/>
+<leui_feature_item name="io.github.mthli.Ninja"/>
+<leui_feature_item name="com.funnylemon.browser"/>
+<leui_feature_item name="com.lenovo.browser"/>
+<leui_feature_item name="viva.reader"/>
+<leui_feature_item name="com.hipu.yidian"/>
+<leui_feature_item name="com.ss.android.article.news"/>
+<leui_feature_item name="com.tencent.reading"/>
+<leui_feature_item name="com.tencent.news"/>
+<leui_feature_item name="com.ifeng.news2"/>
+<leui_feature_item name="cn.cntvnews"/>
+<leui_feature_item name="com.netease.newsreader.activity"/>
+<leui_feature_item name="com.sohu.newsclient"/>
+<leui_feature_item name="com.sina.news"/>
 </leui_feature_map>

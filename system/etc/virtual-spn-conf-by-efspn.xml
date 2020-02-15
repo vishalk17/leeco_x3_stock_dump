@@ -45,6 +45,17 @@
 <virtualSpnOverride mccmncspn="46692家樂福電信" name="家樂福"/>
 <virtualSpnOverride mccmncspn="20404中国电信" name="中国电信"/>
 <virtualSpnOverride mccmncspn="46001京东通信" name="京东通信"/>
-<virtualSpnOverride mccmncspn="46001阿里通信" name="阿里通信"/>
+<virtualSpnOverride mccmncspn="46001蜗牛移动" name="蜗牛移动"/>
+<virtualSpnOverride mccmncspn="52000TRUE-H" name="TRUE-H"/>
+<virtualSpnOverride mccmncspn="52000my" name="my"/>
+<virtualSpnOverride mccmncspn="45400csl." name="csl."/>
+<virtualSpnOverride mccmncspn="45402csl." name="csl."/>
+<virtualSpnOverride mccmncspn="45418csl." name="csl."/>
+<virtualSpnOverride mccmncspn="454001O1O" name="1O1O"/>
+<virtualSpnOverride mccmncspn="454021O1O" name="1O1O"/>
+<virtualSpnOverride mccmncspn="454181O1O" name="1O1O"/>
 <virtualSpnOverride mccmncspn="204048.ta Δ" name="8.ta"/>
+<virtualSpnOverride mccmncspn="46003懂的通信" name="懂的通信"/>
+<virtualSpnOverride mccmncspn="46011懂的通信" name="懂的通信"/>
+<virtualSpnOverride mccmncspn="25002MegaFon" name="MegaFon RUS"/>
 </virtualSpnOverridesByEfSpn>

@@ -185,7 +185,6 @@
       type="default,dun"
   />
 
-<!--
   <apn carrier="CTWAP"
       mcc="204"
       mnc="04"
@@ -194,11 +193,9 @@
       mmsproxy="10.0.0.200"
       mmsport="80"
       mmsc="http://mmsc.vnet.mobi"
-      type="default,mms"
-      mvno_type="spn"
-      mvno_match_data="中国电信"
+      type="mms"
   />
-
+<!--
  <apn carrier="8•ta" 
      mcc="204" 
      mnc="04" 
@@ -406,7 +403,7 @@
       mmsport="8080"
       type="mms"
   />
-
+<!--LAFITE 19827: delete useless apn as product white book claim
   <apn carrier="Orange Entreprise"
       mcc="208"
       mnc="01"
@@ -447,6 +444,7 @@
       mmsport="8080"
       type="mms"
   />
+-->
 
   <apn carrier="Orange Internet"
       mcc="208"
@@ -2970,6 +2968,8 @@
       type="default,supl"
   />
 
+  <!-- LAFITE-17103 delete beeline apn, the correct mnc = 99 -->
+  <!--
   <apn carrier="Beeline internet"
       mcc="250"
       mnc="11"
@@ -2990,6 +2990,7 @@
       mmsport="8080"
       type="mms"
   />
+  -->
 
   <apn carrier="GPRS-Internet"
       mcc="250"
@@ -6630,6 +6631,7 @@
   type="default,supl"
  />
 
+<!--XSEVEN-6842
 <apn carrier="Airtel Live"
   apn="airtelfun.com"
   mcc="404"
@@ -6638,6 +6640,7 @@
   port="8080"
   type="default,supl"
  />
+-->
 
 <apn carrier="Airtel MMS"
   apn="airtelmms.com"
@@ -6657,6 +6660,7 @@
   type="default,supl"
  />
 
+<!--XSEVEN-6842
 <apn carrier="Airtel Live"
   apn="airtelfun.com"
   mcc="404"
@@ -6665,6 +6669,7 @@
   port="8080"
   type="default,supl"
  />
+-->
 
 <apn carrier="Airtel MMS"
   apn="airtelmms.com"
@@ -6718,6 +6723,7 @@
   type="default,supl"
  />
 
+<!--XSEVEN-6842
 <apn carrier="Airtel Live"
   apn="airtelfun.com"
   mcc="404"
@@ -6726,6 +6732,7 @@
   port="8080"
   type="default,supl"
  />
+-->
 
 <apn carrier="Airtel MMS"
   apn="airtelmms.com"
@@ -6788,6 +6795,7 @@
   type="default,supl"
  />
 
+<!--XSEVEN-6842
 <apn carrier="Airtel Live"
   apn="airtelfun.com"
   mcc="404"
@@ -6796,6 +6804,7 @@
   port="8080"
   type="default,supl"
  />
+-->
 
 <apn carrier="Airtel MMS"
   apn="airtelmms.com"
@@ -6945,6 +6954,7 @@
   type="default,supl"
  />
 
+<!--XSEVEN-6842
 <apn carrier="Airtel Live"
   apn="airtelfun.com"
   mcc="404"
@@ -6953,6 +6963,7 @@
   port="8080"
   type="default,supl"
  />
+-->
 
 <apn carrier="Airtel MMS"
   apn="airtelmms.com"
@@ -6999,7 +7010,7 @@
   port="8080"
   mmsproxy="10.239.221.5"
   mmsport="8080"
-  mmsc="http://mmsc.rcom.co.in/mms"
+  mmsc="http://mmsc.rcom.co.in/mms/"
   type="mms"
  />
 
@@ -7227,6 +7238,7 @@
   type="default,supl"
  />
 
+<!--XSEVEN-6842
 <apn carrier="Airtel Live"
   apn="airtelfun.com"
   mcc="404"
@@ -7235,6 +7247,7 @@
   port="8080"
   type="default,supl"
  />
+-->
 
 <apn carrier="Airtel MMS"
   apn="airtelmms.com"
@@ -7338,7 +7351,7 @@
   port="8080"
   mmsproxy="10.239.221.5"
   mmsport="8080"
-  mmsc="http://mmsc.rcom.co.in/mms"
+  mmsc="http://mmsc.rcom.co.in/mms/"
   type="mms"
  />
 
@@ -7412,6 +7425,7 @@
   type="default,supl"
  />
 
+<!--XSEVEN-6842
 <apn carrier="Airtel Live"
   apn="airtelfun.com"
   mcc="404"
@@ -7420,6 +7434,7 @@
   port="8080"
   type="default,supl"
  />
+-->
 
 <apn carrier="Airtel MMS"
   apn="airtelmms.com"
@@ -7548,6 +7563,7 @@
   type="default,supl"
  />
 
+<!--XSEVEN-6842
 <apn carrier="Airtel Live"
   apn="airtelfun.com"
   mcc="404"
@@ -7556,6 +7572,7 @@
   port="8080"
   type="default,supl"
  />
+-->
 
 <apn carrier="Airtel MMS"
   apn="airtelmms.com"
@@ -7608,6 +7625,7 @@
   type="default,supl"
  />
 
+<!--XSEVEN-6842
 <apn carrier="Airtel Live"
   apn="airtelfun.com"
   mcc="404"
@@ -7616,6 +7634,7 @@
   port="8080"
   type="default,supl"
  />
+-->
 
 <apn carrier="Airtel MMS"
   apn="airtelmms.com"
@@ -7636,7 +7655,7 @@
   port="8080"
   mmsproxy="10.239.221.5"
   mmsport="8080"
-  mmsc="http://mmsc.rcom.co.in/mms"
+  mmsc="http://mmsc.rcom.co.in/mms/"
   type="mms"
  />
 
@@ -7685,7 +7704,7 @@
   port="8080"
   mmsproxy="10.239.221.5"
   mmsport="8080"
-  mmsc="http://mmsc.rcom.co.in/mms"
+  mmsc="http://mmsc.rcom.co.in/mms/"
   type="mms"
  />
 
@@ -7974,6 +7993,7 @@
   type="default,supl"
  />
 
+<!--XSEVEN-6842
 <apn carrier="Airtel Live"
   apn="airtelfun.com"
   mcc="404"
@@ -7982,6 +8002,7 @@
   port="8080"
   type="default,supl"
  />
+-->
 
 <apn carrier="Airtel MMS"
   apn="airtelmms.com"
@@ -8100,7 +8121,7 @@
   port="8080"
   mmsproxy="10.239.221.5"
   mmsport="8080"
-  mmsc="http://mmsc.rcom.co.in/mms"
+  mmsc="http://mmsc.rcom.co.in/mms/"
   type="mms"
  />
 
@@ -8120,14 +8141,13 @@
   type="default,supl"
  />
 
+<!--Delete proxy and port as LAFITE-19858 demand begin-->
 <apn carrier="MTNL"
   apn="mtnl.net"
   mcc="404"
   mnc="68"
   user="mtnl"
   password="mtnl123"
-  proxy="10.10.10.10"
-  port="9401"
   mmsproxy="10.10.10.10"
   mmsport="9401"
   mmsc="http://mtnlmms/"
@@ -8140,13 +8160,12 @@
   mnc="69"
   user="mtnl"
   password="mtnl123"
-  proxy="10.10.10.10"
-  port="9401"
   mmsproxy="10.10.10.10"
   mmsport="9401"
   mmsc="http://mtnlmms/"
   type="default,supl,mms"
  />
+<!--Delete proxy and port as LAFITE-19858 demand end--> 
 
 <apn carrier="Airtel GPRS"
   apn="airtelgprs.com"
@@ -8155,6 +8174,7 @@
   type="default,supl"
  />
 
+<!--XSEVEN-6842
 <apn carrier="Airtel Live"
   apn="airtelfun.com"
   mcc="404"
@@ -8163,6 +8183,7 @@
   port="8080"
   type="default,supl"
  />
+-->
 
 <apn carrier="Airtel MMS"
   apn="airtelmms.com"
@@ -8511,7 +8532,7 @@
   port="8080"
   mmsproxy="10.239.221.5"
   mmsport="8080"
-  mmsc="http://mmsc.rcom.co.in/mms"
+  mmsc="http://mmsc.rcom.co.in/mms/"
   type="mms"
  />
 
@@ -8606,6 +8627,7 @@
   type="default,supl"
  />
 
+<!--XSEVEN-6842
 <apn carrier="Airtel Live"
   apn="airtelfun.com"
   mcc="404"
@@ -8614,6 +8636,7 @@
   port="8080"
   type="default,supl"
  />
+-->
 
 <apn carrier="Airtel MMS"
   apn="airtelmms.com"
@@ -8659,6 +8682,7 @@
   type="default,supl"
  />
 
+<!--XSEVEN-6842
 <apn carrier="Airtel Live"
   apn="airtelfun.com"
   mcc="404"
@@ -8667,6 +8691,7 @@
   port="8080"
   type="default,supl"
  />
+-->
 
 <apn carrier="Airtel MMS"
   apn="airtelmms.com"
@@ -8686,6 +8711,7 @@
   type="default,supl"
  />
 
+<!--XSEVEN-6842
 <apn carrier="Airtel Live"
   apn="airtelfun.com"
   mcc="404"
@@ -8694,6 +8720,7 @@
   port="8080"
   type="default,supl"
  />
+-->
 
 <apn carrier="Airtel MMS"
   apn="airtelmms.com"
@@ -8713,6 +8740,7 @@
   type="default,supl"
  />
 
+<!--XSEVEN-6842
 <apn carrier="Airtel Live"
   apn="airtelfun.com"
   mcc="404"
@@ -8721,6 +8749,7 @@
   port="8080"
   type="default,supl"
  />
+-->
 
 <apn carrier="Airtel MMS"
   apn="airtelmms.com"
@@ -8740,6 +8769,7 @@
   type="default,supl"
  />
 
+<!--XSEVEN-6842
 <apn carrier="Airtel Live"
   apn="airtelfun.com"
   mcc="404"
@@ -8748,6 +8778,7 @@
   port="8080"
   type="default,supl"
  />
+-->
 
 <apn carrier="Airtel MMS"
   apn="airtelmms.com"
@@ -8767,6 +8798,7 @@
   type="default,supl"
  />
 
+<!--XSEVEN-6842
 <apn carrier="Airtel Live"
   apn="airtelfun.com"
   mcc="404"
@@ -8775,6 +8807,7 @@
   port="8080"
   type="default,supl"
  />
+-->
 
 <apn carrier="Airtel MMS"
   apn="airtelmms.com"
@@ -8794,6 +8827,7 @@
   type="default,supl"
  />
 
+<!--XSEVEN-6842
 <apn carrier="Airtel Live"
   apn="airtelfun.com"
   mcc="404"
@@ -8802,6 +8836,7 @@
   port="8080"
   type="default,supl"
  />
+-->
 
 <apn carrier="Airtel MMS"
   apn="airtelmms.com"
@@ -8821,6 +8856,7 @@
   type="default,supl"
  />
 
+<!--XSEVEN-6842
 <apn carrier="Airtel Live"
   apn="airtelfun.com"
   mcc="404"
@@ -8829,6 +8865,7 @@
   port="8080"
   type="default,supl"
  />
+-->
 
 <apn carrier="Airtel MMS"
   apn="airtelmms.com"
@@ -8895,7 +8932,7 @@
   port="8080"
   mmsproxy="10.239.221.5"
   mmsport="8080"
-  mmsc="http://mmsc.rcom.co.in/mms"
+  mmsc="http://mmsc.rcom.co.in/mms/"
   type="mms"
  />
 
@@ -8940,7 +8977,7 @@
   port="8080"
   mmsproxy="10.239.221.5"
   mmsport="8080"
-  mmsc="http://mmsc.rcom.co.in/mms"
+  mmsc="http://mmsc.rcom.co.in/mms/"
   type="mms"
  />
 
@@ -8972,7 +9009,7 @@
   port="8080"
   mmsproxy="10.239.221.5"
   mmsport="8080"
-  mmsc="http://mmsc.rcom.co.in/mms"
+  mmsc="http://mmsc.rcom.co.in/mms/"
   type="mms"
  />
 
@@ -9000,7 +9037,7 @@
   port="8080"
   mmsproxy="10.239.221.5"
   mmsport="8080"
-  mmsc="http://mmsc.rcom.co.in/mms"
+  mmsc="http://mmsc.rcom.co.in/mms/"
   type="mms"
  />
 
@@ -9028,7 +9065,7 @@
   port="8080"
   mmsproxy="10.239.221.5"
   mmsport="8080"
-  mmsc="http://mmsc.rcom.co.in/mms"
+  mmsc="http://mmsc.rcom.co.in/mms/"
   type="mms"
  />
 
@@ -9056,7 +9093,7 @@
   port="8080"
   mmsproxy="10.239.221.5"
   mmsport="8080"
-  mmsc="http://mmsc.rcom.co.in/mms"
+  mmsc="http://mmsc.rcom.co.in/mms/"
   type="mms"
  />
 
@@ -9084,7 +9121,7 @@
   port="8080"
   mmsproxy="10.239.221.5"
   mmsport="8080"
-  mmsc="http://mmsc.rcom.co.in/mms"
+  mmsc="http://mmsc.rcom.co.in/mms/"
   type="mms"
  />
 
@@ -9112,7 +9149,7 @@
   port="8080"
   mmsproxy="10.239.221.5"
   mmsport="8080"
-  mmsc="http://mmsc.rcom.co.in/mms"
+  mmsc="http://mmsc.rcom.co.in/mms/"
   type="mms"
  />
 
@@ -9140,7 +9177,7 @@
   port="8080"
   mmsproxy="10.239.221.5"
   mmsport="8080"
-  mmsc="http://mmsc.rcom.co.in/mms"
+  mmsc="http://mmsc.rcom.co.in/mms/"
   type="mms"
  />
 
@@ -9168,7 +9205,7 @@
   port="8080"
   mmsproxy="10.239.221.5"
   mmsport="8080"
-  mmsc="http://mmsc.rcom.co.in/mms"
+  mmsc="http://mmsc.rcom.co.in/mms/"
   type="mms"
  />
 
@@ -9196,7 +9233,7 @@
   port="8080"
   mmsproxy="10.239.221.5"
   mmsport="8080"
-  mmsc="http://mmsc.rcom.co.in/mms"
+  mmsc="http://mmsc.rcom.co.in/mms/"
   type="mms"
  />
 
@@ -9224,7 +9261,7 @@
   port="8080"
   mmsproxy="10.239.221.5"
   mmsport="8080"
-  mmsc="http://mmsc.rcom.co.in/mms"
+  mmsc="http://mmsc.rcom.co.in/mms/"
   type="mms"
   protocol="IPV4V6"
   roaming_protocol="IPV4V6"
@@ -9258,7 +9295,7 @@
   port="8080"
   mmsproxy="10.239.221.5"
   mmsport="8080"
-  mmsc="http://mmsc.rcom.co.in/mms"
+  mmsc="http://mmsc.rcom.co.in/mms/"
   type="mms"
  />
 
@@ -9286,7 +9323,7 @@
   port="8080"
   mmsproxy="10.239.221.5"
   mmsport="8080"
-  mmsc="http://mmsc.rcom.co.in/mms"
+  mmsc="http://mmsc.rcom.co.in/mms/"
   type="mms"
  />
 
@@ -9314,7 +9351,7 @@
   port="8080"
   mmsproxy="10.239.221.5"
   mmsport="8080"
-  mmsc="http://mmsc.rcom.co.in/mms"
+  mmsc="http://mmsc.rcom.co.in/mms/"
   type="mms"
  />
 
@@ -9342,7 +9379,7 @@
   port="8080"
   mmsproxy="10.239.221.5"
   mmsport="8080"
-  mmsc="http://mmsc.rcom.co.in/mms"
+  mmsc="http://mmsc.rcom.co.in/mms/"
   type="mms"
  />
 
@@ -9370,7 +9407,7 @@
   port="8080"
   mmsproxy="10.239.221.5"
   mmsport="8080"
-  mmsc="http://mmsc.rcom.co.in/mms"
+  mmsc="http://mmsc.rcom.co.in/mms/"
   type="mms"
  />
 
@@ -9398,7 +9435,7 @@
   port="8080"
   mmsproxy="10.239.221.5"
   mmsport="8080"
-  mmsc="http://mmsc.rcom.co.in/mms"
+  mmsc="http://mmsc.rcom.co.in/mms/"
   type="mms"
  />
 
@@ -9426,7 +9463,7 @@
   port="8080"
   mmsproxy="10.239.221.5"
   mmsport="8080"
-  mmsc="http://mmsc.rcom.co.in/mms"
+  mmsc="http://mmsc.rcom.co.in/mms/"
   type="mms"
  />
 
@@ -9844,6 +9881,7 @@
   type="default,supl"
  />
 
+<!--XSEVEN-6842
 <apn carrier="Airtel Live"
   apn="airtelfun.com"
   mcc="405"
@@ -9852,6 +9890,7 @@
   port="8080"
   type="default,supl"
  />
+-->
 
 <apn carrier="Airtel MMS"
   apn="airtelmms.com"
@@ -9871,6 +9910,7 @@
   type="default,supl"
  />
 
+<!--XSEVEN-6842
 <apn carrier="Airtel Live"
   apn="airtelfun.com"
   mcc="405"
@@ -9879,6 +9919,7 @@
   port="8080"
   type="default,supl"
  />
+-->
 
 <apn carrier="Airtel MMS"
   apn="airtelmms.com"
@@ -9898,6 +9939,7 @@
   type="default,supl"
  />
 
+<!--XSEVEN-6842
 <apn carrier="Airtel Live"
   apn="airtelfun.com"
   mcc="405"
@@ -9906,6 +9948,7 @@
   port="8080"
   type="default,supl"
  />
+-->
 
 <apn carrier="Airtel MMS"
   apn="airtelmms.com"
@@ -9925,6 +9968,7 @@
   type="default,supl"
  />
 
+<!--XSEVEN-6842
 <apn carrier="Airtel Live"
   apn="airtelfun.com"
   mcc="405"
@@ -9933,6 +9977,7 @@
   port="8080"
   type="default,supl"
  />
+-->
 
 <apn carrier="Airtel MMS"
   apn="airtelmms.com"
@@ -9952,6 +9997,7 @@
   type="default,supl"
  />
 
+<!--XSEVEN-6842
 <apn carrier="Airtel Live"
   apn="airtelfun.com"
   mcc="405"
@@ -9960,6 +10006,7 @@
   port="8080"
   type="default,supl"
  />
+-->
 
 <apn carrier="Airtel MMS"
   apn="airtelmms.com"
@@ -9979,6 +10026,7 @@
   type="default,supl"
  />
 
+<!--XSEVEN-6842
 <apn carrier="Airtel Live"
   apn="airtelfun.com"
   mcc="405"
@@ -9987,6 +10035,7 @@
   port="8080"
   type="default,supl"
  />
+-->
 
 <apn carrier="Airtel MMS"
   apn="airtelmms.com"
@@ -10874,7 +10923,7 @@
   mcc="405"
   mnc="840"
   apn="jionet"
-  type="default"
+  type="default,xcap,ia"
   protocol="IPV4V6"
   roaming_protocol="IPV4V6"
  />
@@ -11109,7 +11158,7 @@
   mcc="405"
   mnc="854"
   apn="jionet"
-  type="default"
+  type="default,xcap,ia"
   protocol="IPV4V6"
   roaming_protocol="IPV4V6"
  />
@@ -11137,7 +11186,7 @@
   mcc="405"
   mnc="855"
   apn="jionet"
-  type="default"
+  type="default,xcap,ia"
   protocol="IPV4V6"
   roaming_protocol="IPV4V6"
  />
@@ -11165,7 +11214,7 @@
   mcc="405"
   mnc="856"
   apn="jionet"
-  type="default"
+  type="default,xcap,ia"
   protocol="IPV4V6"
   roaming_protocol="IPV4V6"
  />
@@ -11193,7 +11242,7 @@
   mcc="405"
   mnc="857"
   apn="jionet"
-  type="default"
+  type="default,xcap,ia"
   protocol="IPV4V6"
   roaming_protocol="IPV4V6"
  />
@@ -11221,7 +11270,7 @@
   mcc="405"
   mnc="858"
   apn="jionet"
-  type="default"
+  type="default,xcap,ia"
   protocol="IPV4V6"
   roaming_protocol="IPV4V6"
  />
@@ -11249,7 +11298,7 @@
   mcc="405"
   mnc="859"
   apn="jionet"
-  type="default"
+  type="default,xcap,ia"
   protocol="IPV4V6"
   roaming_protocol="IPV4V6"
  />
@@ -11277,7 +11326,7 @@
   mcc="405"
   mnc="860"
   apn="jionet"
-  type="default"
+  type="default,xcap,ia"
   protocol="IPV4V6"
   roaming_protocol="IPV4V6"
  />
@@ -11305,7 +11354,7 @@
   mcc="405"
   mnc="861"
   apn="jionet"
-  type="default"
+  type="default,xcap,ia"
   protocol="IPV4V6"
   roaming_protocol="IPV4V6"
  />
@@ -11333,7 +11382,7 @@
   mcc="405"
   mnc="862"
   apn="jionet"
-  type="default"
+  type="default,xcap,ia"
   protocol="IPV4V6"
   roaming_protocol="IPV4V6"
  />
@@ -11361,7 +11410,7 @@
   mcc="405"
   mnc="863"
   apn="jionet"
-  type="default"
+  type="default,xcap,ia"
   protocol="IPV4V6"
   roaming_protocol="IPV4V6"
  />
@@ -11388,7 +11437,7 @@
 <apn carrier="jio"
   mcc="405"
   mnc="864"
-  apn="jionet"
+  apn="jionet,xcap,ia"
   type="default"
   protocol="IPV4V6"
   roaming_protocol="IPV4V6"
@@ -11417,7 +11466,7 @@
   mcc="405"
   mnc="865"
   apn="jionet"
-  type="default"
+  type="default,xcap,ia"
   protocol="IPV4V6"
   roaming_protocol="IPV4V6"
  />
@@ -11445,7 +11494,7 @@
   mcc="405"
   mnc="866"
   apn="jionet"
-  type="default"
+  type="default,xcap,ia"
   protocol="IPV4V6"
   roaming_protocol="IPV4V6"
  />
@@ -11473,7 +11522,7 @@
   mcc="405"
   mnc="867"
   apn="jionet"
-  type="default"
+  type="default,xcap,ia"
   protocol="IPV4V6"
   roaming_protocol="IPV4V6"
  />
@@ -11501,7 +11550,7 @@
   mcc="405"
   mnc="868"
   apn="jionet"
-  type="default"
+  type="default,xcap,ia"
   protocol="IPV4V6"
   roaming_protocol="IPV4V6"
  />
@@ -11529,7 +11578,7 @@
   mcc="405"
   mnc="869"
   apn="jionet"
-  type="default"
+  type="default,xcap,ia"
   protocol="IPV4V6"
   roaming_protocol="IPV4V6"
  />
@@ -11557,7 +11606,7 @@
   mcc="405"
   mnc="870"
   apn="jionet"
-  type="default"
+  type="default,xcap,ia"
   protocol="IPV4V6"
   roaming_protocol="IPV4V6"
  />
@@ -11585,7 +11634,7 @@
   mcc="405"
   mnc="871"
   apn="jionet"
-  type="default"
+  type="default,xcap,ia"
   protocol="IPV4V6"
   roaming_protocol="IPV4V6"
  />
@@ -11613,7 +11662,7 @@
   mcc="405"
   mnc="872"
   apn="jionet"
-  type="default"
+  type="default,xcap,ia"
   protocol="IPV4V6"
   roaming_protocol="IPV4V6"
  />
@@ -11641,7 +11690,7 @@
   mcc="405"
   mnc="873"
   apn="jionet"
-  type="default"
+  type="default,xcap,ia"
   protocol="IPV4V6"
   roaming_protocol="IPV4V6"
  />
@@ -11670,7 +11719,7 @@
   mcc="405"
   mnc="874"
   apn="jionet"
-  type="default"
+  type="default,xcap,ia"
   protocol="IPV4V6"
   roaming_protocol="IPV4V6"
  />
@@ -12967,7 +13016,7 @@
       mmsproxy="192.168.59.51"
       mmsport="8080"
       type="default,mms,hipri"
-      authtype="3"
+      authtype="1"
   />
 
   <apn carrier="1O1O IMS"
@@ -12975,6 +13024,7 @@
       mnc="00"
       apn="ims"
       type="ims"
+      authtype="1"
   />
 
   <apn carrier="csl"
@@ -13067,16 +13117,25 @@
       type="ims"
   />
 <!-- MOBILEP-25454: Modify for csl END -->
-  <apn carrier="3"
+  <apn carrier="3 LTE"
       mcc="454"
       mnc="03"
       apn="mobile.three.com.hk"
       mmsc="http://mms.um.three.com.hk:10021/mmsc"
-      mmsproxy="172.20.97.116"
+      mmsproxy="mms.three.com.hk"
       mmsport="8799"
       authtype="1"
       type="default,supl,mms"
   />
+
+  <apn carrier="3 IMS"
+      mcc="454"
+      mnc="03"
+      apn="ims.lte.three.com.hk"
+      authtype="1"
+      type="ims"
+  />
+
 
 <!-- SI-20057: For 3 APN profile @{-->
   <apn carrier="3 share"
@@ -13114,6 +13173,14 @@
       mmsproxy="10.9.9.9"
       mmsport="8080"
       type="default,supl,mms,dun"
+      authtype="2"
+  />
+
+    <apn carrier="SmarTone IMS"
+      mcc="454"
+      mnc="06"
+      apn="ims"
+      type="ims"
       authtype="2"
   />
 <!--
@@ -13154,7 +13221,7 @@
       type="default,mms,hipri"
   />
 <!-- MOBILEP-25461: Modify for CMHK START-->
-  <apn carrier="CMHK"
+  <apn carrier="CMHK Data"
       mcc="454"
       mnc="12"
       apn="cmhk"
@@ -13162,6 +13229,14 @@
       mmsproxy=""
       mmsport=""
       type="default,supl,mms,dun"
+      authtype="1"
+  />
+
+  <apn carrier="CMHK IMS"
+      mcc="454"
+      mnc="12"
+      apn="ims"
+      type="ims"
       authtype="1"
   />
 <!--
@@ -13649,7 +13724,7 @@
       mcc="460"
       mnc="01"
       apn="3gnet"
-      type="default,supl,net,dun"
+      type="default,supl"
   />
   
   <apn carrier="沃宽带用户手机上网"
@@ -13658,10 +13733,7 @@
       apn="3gwap"
       proxy="10.0.0.172"
       port="80"
-      mmsc="http://mmsc.myuni.com.cn"
-      mmsproxy="10.0.0.172"
-      mmsport="80"
-      type="default,mms,supl,net,dun"
+      type="default,supl"
   />
 
   <apn carrier="中国联通 3g 彩信 (China Unicom)"
@@ -13680,7 +13752,7 @@
       mcc="460"
       mnc="09"
       apn="3gnet"
-      type="default,supl,net,dun"
+      type="default,supl"
   />
   
   <apn carrier="沃宽带用户手机上网"
@@ -13689,10 +13761,7 @@
       apn="3gwap"
       proxy="10.0.0.172"
       port="80"
-      mmsc="http://mmsc.myuni.com.cn"
-      mmsproxy="10.0.0.172"
-      mmsport="80"
-      type="default,mms,supl,net,dun"
+      type="default,supl"
   />
 
   <apn carrier="中国联通 3g 彩信 (China Unicom)"
@@ -17517,5 +17586,16 @@
       mnc="07"
       apn="internet"
   /> 
+
+  <!-- [+LEUI][XSEVEN-8083] add emergency APN -->
+  <apn carrier="Emergency"
+      mcc=""
+      mnc=""
+      apn=""
+      type="emergency"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+  />
+  <!-- [-LEUI]-->
 
 </apns>

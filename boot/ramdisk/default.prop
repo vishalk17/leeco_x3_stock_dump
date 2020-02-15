@@ -20,11 +20,11 @@ camera.disable_zsl_mode=1
 #
 # BOOTIMAGE_BUILD_PROPERTIES
 #
-ro.bootimage.build.date=Fri Aug 26 02:46:31 CST 2016
-ro.bootimage.build.date.utc=1472150791
-ro.bootimage.build.fingerprint=Letv/Le1s_IN/X3_HK:6.0/DHXOSOP5801708261S/1472150001:user/release-keys
-ro.bootimage.build.user=letv
-ro.bootimage.build.host=CPBJ-54
-ro.bootimage.build.id=DHXOSOP5801708261S
-ro.bootimage.build.tags=release-keys
+ro.bootimage.build.date=Fri Dec 8 11:23:33 CST 2017
+ro.bootimage.build.date.utc=1512703413
+ro.bootimage.build.fingerprint=Letv/Le1s_CN/X3:6.0/DBXCNOP5902812084S/1512700098:user/test-keys
+ro.bootimage.build.user=sysop
+ro.bootimage.build.host=cmsmb01
+ro.bootimage.build.id=DBXCNOP5902812084S
+ro.bootimage.build.tags=test-keys
 ro.bootimage.build.type=user

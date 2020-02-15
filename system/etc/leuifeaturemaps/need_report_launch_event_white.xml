@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<leui_feature_map name="need_report_launch_event" type="whitelist">
+    <leui_feature_item name="com.sohu.inputmethod.sogou.leshi|1" />
+</leui_feature_map>

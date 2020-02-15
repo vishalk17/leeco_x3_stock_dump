@@ -10,11 +10,11 @@
     <feature name="letvbootservice.download_normal_resolution_video" />
     <feature name="deskclock_not_support_gesture"/>
     <feature name="soft_mute_key"/>
-    <feature name="setupwizard.display_mode_x3"/>
     <feature name="compass.special_accuracy_for_x3"/>
     <feature name="gallery2.new_color_mode_for_x3"/>
     <feature name="systemui.statusbar_show_signal_index_if_one_card"/>
     <feature name="settings.fast_charge_mode_support"/>
     <feature name="telephony.remove_volte"/>
     <feature name="hardware.no_support_hall"/>
+    <feature name="settings.vibrate_global_enabled"/>
 </permissions>
