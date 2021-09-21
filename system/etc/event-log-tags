@@ -219,9 +219,6 @@
 70000 screen_toggled (screen_state|1|5)
 70101 browser_zoom_level_change (start level|1|5),(end level|1|5),(time|2|3)
 70102 browser_double_tap_duration (duration|1|3),(time|2|3)
-70103 browser_bookmark_added (url|3), (where|3)
-70104 browser_page_loaded (url|3), (time|2|3)
-70105 browser_timeonpage (url|3), (time|2|3)
 70150 browser_snap_center
 70151 exp_det_attempt_to_call_object_getclass (app_signature|3)
 70200 aggregation (aggregation time|2|3)

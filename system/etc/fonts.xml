@@ -52,17 +52,17 @@
     </family>
     <alias name="sans-serif-condensed-light" to="sans-serif-condensed" weight="300" />
 
-        <!-- //[+LEUI][dongshangyong@letv.com] added source hans & helvetica fonts declare -->
+    <!-- //[+LEUI][dongshangyong@letv.com] added source hans & helvetica fonts declare -->
     <family name="helve-neue">
-        <font weight="100" style="normal">HelveticaLT-Thin.ttf</font>
+        <font weight="100" style="normal">Roboto-Thin.ttf</font>
         <font weight="100" style="italic">Roboto-ThinItalic.ttf</font>
-        <font weight="300" style="normal">HelveticaLT-Light.ttf</font>
+        <font weight="300" style="normal">Roboto-Light.ttf</font>
         <font weight="300" style="italic">Roboto-LightItalic.ttf</font>
-        <font weight="200" style="normal">HelveticaLT-Roman.ttf</font>
+        <font weight="200" style="normal">Roboto-Regular.ttf</font>
         <font weight="200" style="italic">Roboto-Italic.ttf</font>
-        <font weight="400" style="normal">HelveticaLT-Roman.ttf</font>
+        <font weight="400" style="normal">Roboto-Regular.ttf</font>
         <font weight="400" style="italic">Roboto-Italic.ttf</font>
-        <font weight="500" style="normal">HelveticaLT-Medium.ttf</font>
+        <font weight="500" style="normal">Roboto-Medium.ttf</font>
         <font weight="500" style="italic">Roboto-MediumItalic.ttf</font>
         <font weight="900" style="normal">Roboto-Black.ttf</font>
         <font weight="900" style="italic">Roboto-BlackItalic.ttf</font>
@@ -78,18 +78,10 @@
     <alias name="helve-neue-bold" to="helve-neue" weight="700" />
     <alias name="helve-neue-black" to="helve-neue" weight="900" />
 
-    <family name="helve-neue-ultralight">
-        <font weight="300" style="normal">HelveticaLT-UltraLight.ttf</font>
-    </family>
-    <family name="helve-neue-lightextended">
-        <font weight="200" style="normal">HelveticaLT-LightExtended.ttf</font>
-    </family>
-    <family name="helve-neue-thinextended">
-        <font weight="200" style="normal">HelveticaLT-ThinExtended.ttf</font>
-    </family>
-    <family name="helve-neue-ultraLightextended">
-        <font weight="200" style="normal">HelveticaLT-UltraLightExtended.ttf</font>
-    </family>
+    <alias name="helve-neue-ultralight" to="helve-neue" weight="100" />
+    <alias name="helve-neue-lightextended" to="helve-neue" weight="100" />
+    <alias name="helve-neue-thinextended" to="helve-neue" weight="100" />
+    <alias name="helve-neue-ultraLightextended" to="helve-neue" weight="100" />
 
     <alias name="hans-sans" to="helve-neue" weight="400" />
     <alias name="hans-sans-thin" to="helve-neue" weight="100" />

@@ -50,5 +50,6 @@
 <leui_feature_item name="com.letv.android.letvlive" />
 <leui_feature_item name="com.stv.android.videochat" />
 <leui_feature_item name="com.letv.android.powercontroller" />
+<leui_feature_item name="com.republicwireless.tel" />
 
 </leui_feature_map>
