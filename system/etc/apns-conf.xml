@@ -13072,7 +13072,7 @@
       mnc="03"
       apn="mobile.three.com.hk"
       mmsc="http://mms.um.three.com.hk:10021/mmsc"
-      mmsproxy="172.20.97.116"
+      mmsproxy="mms.three.com.hk"
       mmsport="8799"
       authtype="1"
       type="default,supl,mms"
