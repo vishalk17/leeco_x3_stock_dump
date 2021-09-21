@@ -20,8 +20,8 @@ com.mediatek.common.telephony.IGsmConnectionExt | com.mediatek.fwk.plugin | com.
 com.mediatek.common.media.IRCSePriorityExt | com.mediatek.fwk.plugin | com.mediatek.op.media.DefaultRCSePriority | FwkPlugin.apk
 com.mediatek.common.amsplus.ICustomizedOomExt | com.mediatek.fwk.plugin | com.mediatek.op.amsplus.DefaultCustomizedOomExt | FwkPlugin.apk
 com.mediatek.common.wfc.IImsNotificationControllerExt | com.mediatek.fwk.plugin | com.mediatek.op.wfc.DefaultImsNotificationControllerExt | FwkPlugin.apk
-com.mediatek.common.telephony.ITelephonyExt | com.mediatek.fwk.plugin | com.mediatek.op.telephony.TelephonyExt | FwkPlugin.apk
 com.mediatek.common.media.IOmaSettingHelper | com.mediatek.fwk.plugin | com.mediatek.op.media.DefaultOmaSettingHelper | FwkPlugin.apk
+com.mediatek.common.telephony.ITelephonyExt | com.mediatek.fwk.plugin | com.mediatek.op.telephony.TelephonyExt | FwkPlugin.apk
 com.mediatek.common.telephony.ISupplementaryServiceExt | com.mediatek.fwk.plugin | com.mediatek.op.telephony.SupplementaryServiceExt | FwkPlugin.apk
 com.mediatek.common.lowstorage.ILowStorageExt | com.mediatek.fwk.plugin | com.mediatek.op.lowstorage.LowStorageExt | FwkPlugin.apk
 com.mediatek.common.telephony.IServiceStateExt | com.mediatek.fwk.plugin | com.mediatek.op.telephony.DefaultServiceStateExt | FwkPlugin.apk
