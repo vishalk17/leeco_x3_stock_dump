@@ -1,8 +1,8 @@
 #!/system/bin/sh
   echo 1 > /sys/module/sec/parameters/recovery_done
-if ! applypatch -c EMMC:/dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/recovery:13864236:b53262d8ed2f2d50f402a976728670b52792adde; then
-  applypatch -b /system/etc/recovery-resource.dat EMMC:/dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/boot:9844008:46f7a0cf1dae0cc1e117c1b956b12f33b1686b4c EMMC:/dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/recovery b53262d8ed2f2d50f402a976728670b52792adde 13864236 46f7a0cf1dae0cc1e117c1b956b12f33b1686b4c:/system/recovery-from-boot.p && log -t recovery "Installing new recovery image: succeeded" || log -t recovery "Installing new recovery image: failed"
-  if applypatch -c EMMC:/dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/recovery:13864236:b53262d8ed2f2d50f402a976728670b52792adde; then
+if ! applypatch -c EMMC:/dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/recovery:13968684:9d8358df223f1d6486d8b9ac6408dcd13317d81e; then
+  applypatch -b /system/etc/recovery-resource.dat EMMC:/dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/boot:9852200:fea8fd423ff23d2b4450b771553c0ce06a6d4406 EMMC:/dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/recovery 9d8358df223f1d6486d8b9ac6408dcd13317d81e 13968684 fea8fd423ff23d2b4450b771553c0ce06a6d4406:/system/recovery-from-boot.p && log -t recovery "Installing new recovery image: succeeded" || log -t recovery "Installing new recovery image: failed"
+  if applypatch -c EMMC:/dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/recovery:13968684:9d8358df223f1d6486d8b9ac6408dcd13317d81e; then
         echo 0 > /sys/module/sec/parameters/recovery_done
         log -t recovery "Install new recovery image completed"
         
